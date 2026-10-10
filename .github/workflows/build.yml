@@ -14,7 +14,7 @@ jobs:
           java-version: 25
       - uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: "9.3"
+          gradle-version: "9.3.0"
       - run: gradle build
         working-directory: astral-mod
       - uses: actions/upload-artifact@v4
